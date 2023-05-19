@@ -121,3 +121,32 @@ nav a {
   }
 }
 
+/*  About  */
+.underline {
+  position: relative;
+  width: 100px;
+  height: 1px;
+  left: 670px;
+  top: 1107px;
+
+  border: 2px solid #E73587;
+}
+
+/*  Services  */
+.bg-yellow {
+  background-color: #FDF8E3;
+}
+
+.bg-grey {
+  background-color: #F0F3FA;
+}
+
+.bg-pink {
+  background-color: #FEEFF0;
+}
+.card a {
+  background: var(--color-gradient-1);
+  color: white !important;
+  text-decoration: none;
+  padding: 1em 1.5em;
+}

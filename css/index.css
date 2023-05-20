@@ -150,3 +150,37 @@ nav a {
   text-decoration: none;
   padding: 1em 1.5em;
 }
+/* Contact */
+.headline-contact{
+  color : #020E35;
+  font-family: "Basic", sans-serif;
+}
+.headline-contact h5{
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+.headline-contact h1{
+  font-weight: 400;
+  font-size: 5rem;
+  font-style: normal;
+  line-height: 110px;
+}
+h1 abbr{
+  color : #E73587;
+}
+.btn-style{
+  background: var(--color-gradient-1);
+  color: white !important;
+  text-decoration: none;
+  padding: 1em 1.5em;
+}
+/* Footer */
+footer{
+background-color: #020E35;
+color: white !important;
+font-size: 0.7rem;
+bottom: 0px;
+position: relative;
+margin-top: 100px;
+padding: 5px;
+}

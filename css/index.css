@@ -184,3 +184,49 @@ position: relative;
 margin-top: 100px;
 padding: 5px;
 }
+/* Css outwork */
+.OurWork {
+  margin-top: 100px;
+  background-color: #020E35;
+}
+
+.OurWork .line {
+  width: 65%;
+  border-bottom: 4px solid #E73587;
+  border-radius: 4rem;
+}
+
+.OurWork h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.OurWork .img-content-outwork {
+  max-width: 550px;
+  height: 390px;
+}
+
+.OurWork img {
+  width: 433px;
+  height: 390px;
+  position: relative;
+}
+
+.img-content-outwork {
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .OurWork .img-content {
+      max-width: 450px;
+      height: 290px;
+  }
+
+  .OurWork img {
+      width: 333px;
+      height: 290px;
+      position: relative;
+  }
+}
